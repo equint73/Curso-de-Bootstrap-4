@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-bootstrap-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "...",
+    "jquery": "...",
+    "@popperjs/core": "...",
+    "lite-server": "..."
+  }
+}

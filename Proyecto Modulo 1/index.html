@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyecto Bootstrap Modulo 1 con NPM</title>
+
+  <!-- CSS Bootstrap desde node_modules -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron bg-primary text-white p-5 mb-4">
+    <h1 class="display-4">Mi Proyecto 1 de Bootstrap</h1>
+  </div>
+
+  <!-- Container con párrafos -->
+  <div class="container mb-4">
+    <h2>Características del producto</h2>
+    <p><strong>Calidad:</strong> Nuestro producto es de alta calidad y confiabilidad.</p>
+    <p><strong>Innovación:</strong> Utilizamos tecnología de punta para su desarrollo.</p>
+    <p><strong>Soporte:</strong> Atención personalizada 24/7 para nuestros clientes.</p>
+
+    <!-- Sistema de grillas con fila y columnas -->
+    <div class="row d-flex flex-wrap mt-4">
+      <div class="col-md-4 mb-3">
+        <div class="product-card p-3 border rounded">
+          <h3>Producto 1</h3>
+          <p>Descripción breve del producto 1.</p>
+          <button class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="product-card p-3 border rounded">
+          <h3>Producto 2</h3>
+          <p>Descripción breve del producto 2.</p>
+          <button class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="product-card p-3 border rounded">
+          <h3>Producto 3</h3>
+          <p>Descripción breve del producto 3.</p>
+          <button class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white p-4 d-flex justify-content-between flex-wrap">
+    <address class="mb-3 mb-md-0">
+      <strong>Mi Comercio</strong><br />
+      Calle Falsa 123<br />
+      Ciudad, País<br />
+      Tel: +123 456 789
+    </address>
+
+    <div class="text-center mb-3 mb-md-0">
+      <p>Síguenos en redes sociales</p>
+      <a href="#" class="text-white me-2">Facebook</a>
+      <a href="#" class="text-white me-2">Twitter</a>
+      <a href="#" class="text-white">Instagram</a>
+    </div>
+
+    <div class="text-end">
+      <small>&copy; 2026 Mi Sitio Web</small>
+    </div>
+  </footer>
+
+  <!-- JS jQuery, Popper, Bootstrap -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
