@@ -1,0 +1,12 @@
+.card {
+  border-radius: 10px;
+}
+
+.table {
+  min-width: 600px;
+}
+
+img {
+  max-height: 300px;
+  object-fit: cover;
+}
