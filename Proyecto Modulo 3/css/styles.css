@@ -1,0 +1,17 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+body {
+  padding-bottom: 100px;
+}
+
+button.btn-success {
+  margin-top: 2rem;
+}
