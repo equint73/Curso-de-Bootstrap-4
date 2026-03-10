@@ -1,0 +1,17 @@
+{
+  "name": "modulo-4",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "scss": "sass sass/:css/",
+  "dev": "lite-server"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
